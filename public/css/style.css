@@ -1,0 +1,284 @@
+h1, h2, h3, h4, h5, h6{
+    color: #3f3f3f;
+}
+p{
+    font-size: 17px;
+    color:#4c4c4c;
+}
+
+/***********************************************
+* Buttons 
+***********************************************/
+.btn{
+    border-radius:20px;
+    padding:6px 30px;
+    font-size:18px;
+    box-shadow:0px 3px 10px #afafaf;
+}
+.btn-sm{
+    border-radius:20px;
+    padding:5px 15px;
+    font-size:12px;
+    box-shadow:0px 3px 10px #afafaf;
+}
+.btn-primary {
+    background-image: linear-gradient(to right, #f4545b, #e14776, #c3478c, #9c4c99, #6f509b);
+    border: 0px !important;
+}
+.btn-success {
+    background-image: linear-gradient(to right, #71cf0b, #5bb816, #46a119, #338a1a, #217419);
+    border: 0px !important;
+}
+.btn-info {
+    background-image: linear-gradient(to right, #54f4df, #00d9de, #00bcd7, #00a0c9, #1083b5);
+    border: 0px !important;
+}
+.btn-danger {
+    background-image: linear-gradient(to right, #f4c354, #fba850, #fd8d55, #f8725f, #ed5a6d);
+    border: 0px !important;
+}
+
+/***********************************************
+* Navbar 
+***********************************************/
+.navbar-brand {
+    font-size: 1.8em;
+    background-image: linear-gradient(to right, #f4545b, #e14776, #c3478c, #9c4c99, #6f509b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/***********************************************
+* Hover animation  
+***********************************************/
+.hvr-grow-shadow:active, .hvr-grow-shadow:focus, .hvr-grow-shadow:hover {
+    box-shadow: 0 10px 10px -10px rgba(0,0,0,.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.01);
+}
+
+/***********************************************
+* Section heading  
+***********************************************/
+.section-heading{
+    font-size: 2rem;
+    text-align: center;
+    margin:20px 0px 40px 0px;
+    color: #545454
+}
+.section-heading:after {
+    position: absolute;
+    content: '';
+    height: 4px;
+    border-radius: 15px;
+    margin: 0 auto;
+    left: 0;
+    top: 65px;
+    right: 0;
+    width: 80px;
+    background: -moz-linear-gradient(45deg, rgba(255,79,79,1) 0%, rgba(96,92,168,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,79,79,1)), color-stop(100%, rgba(96,92,168,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, rgba(255,79,79,1) 0%, rgba(96,92,168,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(255,79,79,1) 0%, rgba(96,92,168,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(255,79,79,1) 0%, rgba(96,92,168,1) 100%); /* ie10+ */
+    background: linear-gradient(45deg, rgba(255,79,79,1) 0%, rgba(96,92,168,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#605ca8', endColorstr='#FF4F4F',GradientType=1 ); /* ie6-9 */
+    background-color: #605ca8;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+/***********************************************
+* Card style  
+***********************************************/
+.card-title a{
+    background-image: linear-gradient(to right, #f4545b, #e14776, #c3478c, #9c4c99, #6f509b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-body small{
+    font-size: 15px;
+}
+
+/***********************************************
+* Pagination 
+***********************************************/
+.pagination{
+    margin-right: 15px;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-image: linear-gradient(to right, #f4545b, #e14776, #c3478c, #9c4c99, #6f509b);
+    border:0px;
+    
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .4rem 1rem;
+    margin-left: 3px;
+    line-height: 1.25;
+    color: #4b4b4b;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(208,208,208,1) 0%, rgba(238,236,246,1) 100%);
+    border: 0px;
+    border-radius: 50px;
+}
+.page-item:first-child .page-link, .page-item:last-child .page-link {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(167,196,254,1) 0%, rgba(182,164,251,1) 100%);
+    color: white;
+    padding: .4rem 1.2rem;
+    margin-left: 3px;
+    line-height: 1.25;
+    border-radius: 50px;
+}
+
+/*** =========================================== Pages =================================================  ***/
+
+/***********************************************
+* Home page 
+***********************************************/
+.hometop{
+    text-align: center;
+}
+.hometop p{
+    font-size: 18px;
+    width:75%;
+    margin:20px auto 40px auto;
+}
+
+/***********************************************
+* Blog detail page 
+***********************************************/
+.blog-detail-title{
+    font-size:2.3rem !important;
+}
+.blog-detail-image{
+    text-align: center
+}
+.blog-detail-image img{
+   width:70%;
+}
+
+.blog-detail-info{
+    padding: 0px 0px 20px 0px;
+}
+
+.blog-detail-info small{
+    font-size: 15px;
+}
+.blog-detail-info .userinfo{
+    display:inline-block;
+    vertical-align: top;
+}
+.userphoto{
+    width:45px; 
+    height:45px;
+    border-radius:100px; 
+    margin-right:10px;
+    padding:2px;
+    border:1px solid #F47680;
+}
+
+.blog-detail-info .userinfo .text-muted{
+    font-size: 13px;
+}
+
+/***********************************************
+* User dashboard page 
+***********************************************/
+.small-box{
+    background-image: linear-gradient(to right, #f4545b, #e14776, #c3478c, #9c4c99, #6f509b);
+    border: 0px !important;
+    color: #ffffff;
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+    border-radius:15px;
+}
+.small-box .inner{
+    padding: 20px;
+}
+
+.small-box h3 {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    white-space: nowrap;
+    padding: 0;
+    color: #ffffff;
+}
+.small-box .inner p{
+    color: #e7e7e7
+}
+.small-box .icon {
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    position: absolute;
+    top: -10px;
+    right: 43px;
+    z-index: 0;
+    font-size: 71px;
+    color: rgba(0,0,0,0.15);
+}
+.small-box>.small-box-footer {
+    position: relative;
+    text-align: center;
+    padding: 3px 0;
+    color: #fff;
+    color: rgba(255,255,255,0.8);
+    display: block;
+    z-index: 10;
+    background: rgba(0,0,0,0.1);
+    text-decoration: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.small-box-link:hover{
+    text-decoration: none;
+}
+
+/***********************************************
+* User profile page 
+***********************************************/
+.profile-header {
+    position:relative;
+    text-align: center;
+    padding-top:0px;
+  }
+  .profile-header .img-circle {
+    border-radius: 300px;
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+  }
+  .profile-description .profile-status .active{
+    color:green
+  }
+  .profile-description .profile-status .inactive{
+    color:red
+  }
+  /*.profile-header .profile-createddate {
+    margin-top:160px;
+    padding:10px;
+  }*/
+  .profile-description{
+    margin-top:10px;
+    text-align:center;
+  }
+  .profile-description .profile-name{
+    font-size:30px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:600;
+  }
+  .profile-description  .usertype{
+    background-image: linear-gradient(to right, #f4c354, #fba850, #fd8d55, #f8725f, #ed5a6d);
+    padding:5px 25px;
+    color:white;
+    border-radius:20px;
+  }
